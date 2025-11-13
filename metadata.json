@@ -1,0 +1,5 @@
+{
+  "name": "Multilingual MSDS Generator",
+  "description": "Upload a Japanese Material Safety Data Sheet (MSDS) in PDF format to automatically generate a new PDF with side-by-side Japanese, English, and Vietnamese translations, while preserving the original GHS pictograms.",
+  "requestFramePermissions": []
+}
