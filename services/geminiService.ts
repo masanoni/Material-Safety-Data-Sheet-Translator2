@@ -1,6 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { TranslationBlock, Glossary } from '../types';
 
+// FIX: Per coding guidelines, API key must be retrieved from process.env.API_KEY. This also resolves the error "Property 'env' does not exist on type 'ImportMeta'".
 const API_KEY = process.env.API_KEY;
 if (!API_KEY) {
     throw new Error("API_KEY environment variable not set");
